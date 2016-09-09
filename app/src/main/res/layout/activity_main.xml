@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:text="Happy Birthday to you, hope you have yourself a supa dupa day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="italic|bold"
+        android:typeface="sans"
+        android:textColor="#AA00FF"
+
+        />
+
+    <ImageView
+        android:src="@drawable/hap"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:text="Wishing you all the best on your day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#B388FF"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
